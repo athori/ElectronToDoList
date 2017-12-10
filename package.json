@@ -4,7 +4,7 @@
   "description": "Javascript Electron final project",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/athori/ElectronToDoList/issues"
   },
-  "homepage": "https://github.com/athori/ElectronToDoList#readme"
+  "homepage": "https://github.com/athori/ElectronToDoList#readme",
+  "dependencies": {
+    "vue": "^2.5.9"
+  },
+  "devDependencies": {
+    "electron": "^1.7.9"
+  }
 }
